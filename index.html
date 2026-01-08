@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Manidhari Agro Products | Global Agricultural Exporter</title>
 
-  <meta name="description" content="Manidhari Agro Products is an Indian exporter of oil seeds, millets, pulses and grains supplying global markets." />
+  <title>Manidhari Agro Products | Indian Agricultural Exporter</title>
+
+  <meta name="description" content="Manidhari Agro Products is a trusted Indian exporter of oil seeds, millets, pulses and grains supplying global markets with consistent quality." />
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -13,62 +14,112 @@
     body {
       margin: 0;
       font-family: Inter, sans-serif;
-      line-height: 1.6;
       color: #1c1c1c;
+      line-height: 1.6;
     }
 
     header {
-      background: #2e7d32;
+      background: #1b5e20;
       color: white;
-      padding: 16px;
-      text-align: center;
+      padding: 20px;
     }
 
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #2e7d32;
-      text-align: center;
+    header h1 {
+      margin: 0;
     }
 
     .hero {
-      background: url("https://images.unsplash.com/photo-1625246333195-78d9c38ad449") center/cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url("https://images.unsplash.com/photo-1625246333195-78d9c38ad449") center/cover no-repeat;
       color: white;
-      padding: 80px 20px;
+      padding: 120px 20px;
       text-align: center;
     }
 
-    .products {
+    .hero h2 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.15rem;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 2rem;
+      color: #1b5e20;
+      margin-bottom: 40px;
+    }
+
+    .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
     }
 
     .card {
       border: 1px solid #ddd;
-      padding: 20px;
-      border-radius: 6px;
+      padding: 30px;
+      border-radius: 8px;
+      background: white;
     }
 
-    .whatsapp {
+    .card h4 {
+      margin-top: 0;
+      color: #1b5e20;
+    }
+
+    .trust {
+      background: #f4f8f5;
+      text-align: center;
+    }
+
+    .trust p {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.05rem;
+    }
+
+    .cta {
+      text-align: center;
+      background: #1b5e20;
+      color: white;
+      padding: 80px 20px;
+    }
+
+    .cta a {
       display: inline-block;
+      margin-top: 20px;
       background: #25D366;
       color: white;
-      padding: 12px 20px;
+      padding: 14px 28px;
       border-radius: 30px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      font-size: 1.1rem;
     }
 
     footer {
-      background: #111;
-      color: white;
+      background: #0f0f0f;
+      color: #aaa;
       text-align: center;
-      padding: 20px;
+      padding: 30px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
@@ -76,42 +127,65 @@
 
 <header>
   <h1>Manidhari Agro Products</h1>
-  <p>Indian Agricultural Exports | Global Supply</p>
 </header>
 
 <div class="hero">
-  <h2>Premium Agricultural Exports from India</h2>
-  <p>Supplying oil seeds, millets, pulses and grains to global markets</p>
+  <h2>Reliable Agricultural Exports from India</h2>
+  <p>
+    Manidhari Agro Products supplies premium oil seeds, millets, pulses and grains
+    sourced from Indian farms and delivered to global markets with consistency,
+    quality, and integrity.
+  </p>
 </div>
 
 <section>
-  <h2>Our Products</h2>
-  <div class="products">
+  <h3>Our Core Product Categories</h3>
+  <div class="grid">
     <div class="card">
-      <h3>Oil Seeds</h3>
-      <p>Sunflower Seeds, Groundnut (Peanut), Sesame Seeds, Soybean, Mustard Seeds</p>
+      <h4>Oil Seeds</h4>
+      <p>
+        Sunflower Seeds, Groundnut (Peanut), Sesame Seeds, Soybean,
+        Mustard Seeds — cleaned, graded and export-ready.
+      </p>
     </div>
+
     <div class="card">
-      <h3>Millets</h3>
-      <p>Foxtail Millet, Little Millet, Pearl Millet (Bajra), Finger Millet (Ragi), Sorghum</p>
+      <h4>Millets</h4>
+      <p>
+        Foxtail Millet, Little Millet, Pearl Millet (Bajra),
+        Finger Millet (Ragi), Sorghum (Jowar).
+      </p>
     </div>
+
     <div class="card">
-      <h3>Pulses & Grams</h3>
-      <p>Green Gram, Black Gram, Chickpeas, Pigeon Peas, Lentils, Processed Dals</p>
+      <h4>Pulses & Grams</h4>
+      <p>
+        Green Gram, Black Gram, Chickpeas (Kabuli & Desi),
+        Pigeon Peas, Lentils, and processed Dals.
+      </p>
     </div>
   </div>
 </section>
 
-<section style="text-align:center">
-  <h2>Contact Us</h2>
-  <p>For inquiries and quotations, contact us on WhatsApp</p>
-  <a class="whatsapp" href="https://wa.me/917760526703" target="_blank">
-    Chat on WhatsApp
-  </a>
+<section class="trust">
+  <h3>Why International Buyers Choose Us</h3>
+  <p>
+    ✔ India-based sourcing from trusted farming networks<br/>
+    ✔ Consistent quality & specifications<br/>
+    ✔ Hygienic processing and export-grade packaging<br/>
+    ✔ Reliable supply for bulk and long-term contracts<br/>
+    ✔ Experience in serving global markets
+  </p>
 </section>
 
+<div class="cta">
+  <h3>Looking for a Reliable Supply Partner?</h3>
+  <p>Connect with us directly to discuss your requirements.</p>
+  <a href="https://wa.me/917760526703" target="_blank">Chat on WhatsApp</a>
+</div>
+
 <footer>
-  © 2026 Manidhari Agro Products | India
+  © 2026 Manidhari Agro Products | Indian Agricultural Exporter
 </footer>
 
 </body>
