@@ -1,191 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Manidhari Agro Products | Indian Agricultural Exporter</title>
 
-  <meta name="description" content="Manidhari Agro Products is a trusted Indian exporter of oil seeds, millets, pulses and grains supplying global markets with consistent quality." />
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      font-family: Inter, sans-serif;
-      color: #1c1c1c;
-      line-height: 1.6;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #1d1d1f;
+      background: #ffffff;
     }
 
     header {
-      background: #1b5e20;
-      color: white;
-      padding: 20px;
+      padding: 20px 40px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    header h1 {
-      margin: 0;
+    header a {
+      text-decoration: none;
+      color: #1d1d1f;
+      margin-left: 24px;
+      font-weight: 500;
     }
 
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-      url("https://images.unsplash.com/photo-1625246333195-78d9c38ad449") center/cover no-repeat;
-      color: white;
       padding: 120px 20px;
       text-align: center;
+      max-width: 900px;
+      margin: auto;
     }
 
-    .hero h2 {
-      font-size: 2.8rem;
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 600;
       margin-bottom: 20px;
     }
 
     .hero p {
-      max-width: 800px;
-      margin: auto;
-      font-size: 1.15rem;
+      font-size: 1.2rem;
+      color: #555;
     }
 
     section {
-      padding: 70px 20px;
-      max-width: 1200px;
+      padding: 100px 40px;
+      max-width: 1100px;
       margin: auto;
     }
 
-    h3 {
-      text-align: center;
-      font-size: 2rem;
-      color: #1b5e20;
+    h2 {
+      font-size: 2.2rem;
       margin-bottom: 40px;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
     }
 
     .card {
-      border: 1px solid #ddd;
       padding: 30px;
-      border-radius: 8px;
-      background: white;
-    }
-
-    .card h4 {
-      margin-top: 0;
-      color: #1b5e20;
-    }
-
-    .trust {
-      background: #f4f8f5;
-      text-align: center;
-    }
-
-    .trust p {
-      max-width: 900px;
-      margin: auto;
-      font-size: 1.05rem;
+      background: #f5f5f7;
+      border-radius: 16px;
     }
 
     .cta {
       text-align: center;
+      padding: 100px 20px;
       background: #1b5e20;
       color: white;
-      padding: 80px 20px;
     }
 
     .cta a {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 24px;
       background: #25D366;
       color: white;
-      padding: 14px 28px;
-      border-radius: 30px;
+      padding: 14px 30px;
+      border-radius: 999px;
       text-decoration: none;
       font-weight: 600;
-      font-size: 1.1rem;
     }
 
     footer {
-      background: #0f0f0f;
-      color: #aaa;
+      padding: 40px;
       text-align: center;
-      padding: 30px;
+      color: #888;
       font-size: 0.9rem;
-    }
-
-    @media (max-width: 600px) {
-      .hero h2 {
-        font-size: 2rem;
-      }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Manidhari Agro Products</h1>
+  <strong>Manidhari Agro Products</strong>
+  <nav>
+    <a href="products.html">Products</a>
+    <a href="export.html">Export</a>
+    <a href="about.html">About</a>
+  </nav>
 </header>
 
 <div class="hero">
-  <h2>Reliable Agricultural Exports from India</h2>
+  <h1>Premium Agricultural Exports from India</h1>
   <p>
-    Manidhari Agro Products supplies premium oil seeds, millets, pulses and grains
-    sourced from Indian farms and delivered to global markets with consistency,
-    quality, and integrity.
+    Supplying oil seeds, millets, pulses and grains to global markets
+    with consistency, quality and integrity.
   </p>
 </div>
 
 <section>
-  <h3>Our Core Product Categories</h3>
+  <h2>Our Core Categories</h2>
   <div class="grid">
     <div class="card">
-      <h4>Oil Seeds</h4>
-      <p>
-        Sunflower Seeds, Groundnut (Peanut), Sesame Seeds, Soybean,
-        Mustard Seeds — cleaned, graded and export-ready.
-      </p>
+      <strong>Oil Seeds</strong>
+      <p>Sunflower, Groundnut, Sesame, Soybean, Mustard</p>
     </div>
-
     <div class="card">
-      <h4>Millets</h4>
-      <p>
-        Foxtail Millet, Little Millet, Pearl Millet (Bajra),
-        Finger Millet (Ragi), Sorghum (Jowar).
-      </p>
+      <strong>Millets</strong>
+      <p>Foxtail, Little, Pearl, Finger Millet, Sorghum</p>
     </div>
-
     <div class="card">
-      <h4>Pulses & Grams</h4>
-      <p>
-        Green Gram, Black Gram, Chickpeas (Kabuli & Desi),
-        Pigeon Peas, Lentils, and processed Dals.
-      </p>
+      <strong>Pulses & Grams</strong>
+      <p>Green Gram, Black Gram, Chickpeas, Lentils, Dals</p>
     </div>
   </div>
 </section>
 
-<section class="trust">
-  <h3>Why International Buyers Choose Us</h3>
-  <p>
-    ✔ India-based sourcing from trusted farming networks<br/>
-    ✔ Consistent quality & specifications<br/>
-    ✔ Hygienic processing and export-grade packaging<br/>
-    ✔ Reliable supply for bulk and long-term contracts<br/>
-    ✔ Experience in serving global markets
-  </p>
-</section>
-
 <div class="cta">
-  <h3>Looking for a Reliable Supply Partner?</h3>
-  <p>Connect with us directly to discuss your requirements.</p>
-  <a href="https://wa.me/917760526703" target="_blank">Chat on WhatsApp</a>
+  <h2>Let’s Discuss Your Requirement</h2>
+  <p>Reliable supply partner for bulk and long-term contracts</p>
+  <a href="https://wa.me/917760526703">Chat on WhatsApp</a>
 </div>
 
 <footer>
-  © 2026 Manidhari Agro Products | Indian Agricultural Exporter
+  © 2026 Manidhari Agro Products | India
 </footer>
 
 </body>
