@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Manidhari Agro Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+    header, footer {
+      padding: 24px 48px;
+      border-bottom: 1px solid #eaeaea;
+    }
+    footer {
+      border-top: 1px solid #eaeaea;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    main {
+      padding: 60px 48px;
+      max-width: 800px;
+      margin: auto;
+    }
+    a {
+      color: #1b5e20;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <strong>Manidhari Agro Products</strong>
+</header>
+
+<main>
+  <h1>Contact Us</h1>
+
+  <p><strong>Sales Office:</strong> Bengaluru, India</p>
+
+  <p>
+    WhatsApp:
+    <a href="https://wa.me/917760526703">+91 77605 26703</a>
+  </p>
+
+  <p>
+    For product inquiries, specifications and quotations, please reach out via
+    WhatsApp for faster response.
+  </p>
+</main>
+
+<footer>
+  © 2026 Manidhari Agro Products
+</footer>
+
+</body>
+</html>
