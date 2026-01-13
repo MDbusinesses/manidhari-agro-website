@@ -3,20 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <title>Products | Manidhari Agro Products</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+    header, footer {
+      padding: 24px 48px;
+      border-bottom: 1px solid #eaeaea;
+    }
+    footer {
+      border-top: 1px solid #eaeaea;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    main {
+      padding: 60px 48px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-top: 50px;
+      font-size: 1.6rem;
+    }
+    .product-block {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 30px;
+      align-items: start;
+    }
+    .product-block img {
+      width: 100%;
+      border: 1px solid #eaeaea;
+    }
+    ul {
+      margin-top: 10px;
+    }
+  </style>
 </head>
-<body style="font-family:Inter; padding:40px; max-width:900px; margin:auto">
+<body>
 
-<h1>Our Products</h1>
+<header>
+  <strong>Manidhari Agro Products</strong>
+</header>
 
-<h2>Oil Seeds</h2>
-<p>Sunflower Seeds (Confectionery & Crushing), Groundnut (Bold & Java), Sesame (Natural & Hulled), Soybean, Mustard Seeds.</p>
+<main>
+  <h1>Our Products</h1>
 
-<h2>Millets</h2>
-<p>Foxtail Millet, Little Millet, Pearl Millet (Bajra), Finger Millet (Ragi), Sorghum (Jowar).</p>
+  <h2>Oilseeds</h2>
+  <div class="product-block">
+    <img src="https://images.unsplash.com/photo-1606925797300-0b35e9d1794e" alt="Oilseeds">
+    <div>
+      <ul>
+        <li>Sunflower Seeds</li>
+        <li>Groundnut (Peanut) Seeds</li>
+        <li>Sesame Seeds (Natural / Hulled)</li>
+        <li>Soybean</li>
+        <li>Mustard Seeds</li>
+      </ul>
+    </div>
+  </div>
 
-<h2>Pulses & Grams</h2>
-<p>Green Gram, Black Gram, Chickpeas (Kabuli & Desi), Pigeon Peas, Lentils, Split & Processed Dals.</p>
+  <h2>Millets</h2>
+  <div class="product-block">
+    <img src="https://images.unsplash.com/photo-1589927986089-35812388d1b4" alt="Millets">
+    <div>
+      <ul>
+        <li>Foxtail Millet</li>
+        <li>Little Millet</li>
+        <li>Pearl Millet (Bajra)</li>
+        <li>Finger Millet (Ragi)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Dried Coconuts</h2>
+  <div class="product-block">
+    <img src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e" alt="Dried coconuts">
+    <div>
+      <p>
+        Mature dried coconuts suitable for food processing, oil extraction and
+        industrial applications.
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  © 2026 Manidhari Agro Products
+</footer>
 
 </body>
 </html>
